@@ -7,8 +7,8 @@ import { createVuePlugin as vue2 } from 'vite-plugin-vue2'
 export default defineConfig({
   server: {
     https: {
-      key: './ssl/light-mapper-app.key',
-      cert: './ssl/light-mapper-app.crt',
+      key: './ssl/app.key',
+      cert: './ssl/app.crt',
     },
   },
   plugins: [
